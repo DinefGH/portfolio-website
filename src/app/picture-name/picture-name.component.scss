@@ -1,7 +1,51 @@
 .Iam {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 66px;
+    padding-top: 8px;
+    margin-top: 19px;
+
+}
+.picture-body {
+    width: 320px;
+    height: auto;
+}
+
+.picture-name-container {
+    color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 24px;
+    margin-left: -22px;
+}
+
+.frontend {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -22px;
+    color: #9747FF;
+}
+
+.text-container {
+    display: flex;
+}
+
+.talk-button {
+    margin-top: 48px;
 }
