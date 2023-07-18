@@ -1,0 +1,37 @@
+.headline {
+    font-size: 2rem;
+    margin-bottom: 24px;
+}
+
+
+.bulb-text-container {
+    display: flex;
+    margin-top: 24px;
+}
+
+
+.puzzle-text-container {
+    display: flex;
+    margin-top: 24px;
+}
+
+
+.about-container {
+    margin: 24px;
+    margin-top: 48px;
+    color: white;
+
+    img {
+        cursor: pointer;
+    }
+}
+
+
+.puzzle-text {
+    margin-left: 24px;
+}
+
+
+.bulb-text {
+    margin-left: 24px;
+}

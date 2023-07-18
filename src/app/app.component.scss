@@ -4,14 +4,28 @@ body {
     padding: 0;
 }
 
-.navbar-website {
-    
-}
 
 .overlay-menu {
     display: none;
     height: 100%;
     width: 100%;
-    position: absolute;
-    top: 0;
+}
+
+.socials {
+width: 100vw;
+z-index: 1;
+}
+
+.social-line {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.my-skills-container {
+    margin-top: 48px;
 }

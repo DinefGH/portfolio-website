@@ -13,13 +13,12 @@
 
 }
 .picture-body {
-    width: 320px;
+    width: 230px;
     height: auto;
 }
 
 .picture-name-container {
     color: white;
-    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,4 +47,11 @@
 
 .talk-button {
     margin-top: 48px;
+    background-color: #70E61C;
+    border-radius: 10px;
+    height: 49px;
+    width: 135px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
 }

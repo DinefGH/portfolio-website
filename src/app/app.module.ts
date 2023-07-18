@@ -11,6 +11,11 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { OverlayMenuComponent } from './overlay-menu/overlay-menu.component';
 import { NavbarCloseComponent } from './navbar-close/navbar-close.component';
 import { PictureNameComponent } from './picture-name/picture-name.component';
+import { SocialIconsComponent } from './social-icons/social-icons.component';
+import { LinesComponent } from './lines/lines.component';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { MySkillsComponent } from './my-skills/my-skills.component';
+import { PortfolioHeadlineComponent } from './portfolio-headline/portfolio-headline.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +23,12 @@ import { PictureNameComponent } from './picture-name/picture-name.component';
     NavbarComponent,
     OverlayMenuComponent,
     NavbarCloseComponent,
-    PictureNameComponent
+    PictureNameComponent,
+    SocialIconsComponent,
+    LinesComponent,
+    AboutMeComponent,
+    MySkillsComponent,
+    PortfolioHeadlineComponent
   ],
   imports: [
     BrowserModule,
