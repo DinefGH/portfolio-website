@@ -16,6 +16,7 @@ import { LinesComponent } from './lines/lines.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { MySkillsComponent } from './my-skills/my-skills.component';
 import { PortfolioHeadlineComponent } from './portfolio-headline/portfolio-headline.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { PortfolioHeadlineComponent } from './portfolio-headline/portfolio-headl
     LinesComponent,
     AboutMeComponent,
     MySkillsComponent,
-    PortfolioHeadlineComponent
+    PortfolioHeadlineComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,

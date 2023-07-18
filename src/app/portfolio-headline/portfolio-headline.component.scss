@@ -1,0 +1,45 @@
+.portfolio-headline-container {
+    margin-top: 112px;
+}
+
+
+.portfolio-line-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+
+.portfolio-line-left {
+    border-color: #9747FF;
+    border-style: solid;
+    height: 0px;
+    width: 5vw;
+    border-width: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.portfolio-headline {
+    color: white;
+    font-size: 48px;
+}
+
+.portfolio-line-right {
+    border-color: #9747FF;
+    border-style: solid;
+    height: 0px;
+    width: 20vw;
+    border-width: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.portfolio-headline-descreption {
+    color: white;
+    margin: 24px;
+
+}
