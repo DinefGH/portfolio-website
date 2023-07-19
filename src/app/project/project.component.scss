@@ -1,0 +1,82 @@
+
+
+.join-img {
+    width: 300px;
+    height: auto;
+
+}
+
+.project-img {
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.project-name {
+    width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.project-name {
+    color: #9747FF;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.project-skills {
+    margin-top: 32px;
+    color: #70E61C;
+    font-size: 1.5rem;
+    width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.project-descreption {
+    margin-top: 24px;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.project-btn-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10vw;
+    margin-top: 32px;
+}
+
+.project-liveTest-btn {
+    background-color: #9747FF;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 120px;
+    height: 58px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.project-github-btn {
+    background-color: #141D2F;
+    color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #70E61C;
+    border-width: 2px;
+    width: 120px;
+    height: 58px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
