@@ -17,6 +17,8 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { MySkillsComponent } from './my-skills/my-skills.component';
 import { PortfolioHeadlineComponent } from './portfolio-headline/portfolio-headline.component';
 import { ProjectComponent } from './project/project.component';
+import { Project1Component } from './project1/project1.component';
+import { Project2Component } from './project2/project2.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { ProjectComponent } from './project/project.component';
     AboutMeComponent,
     MySkillsComponent,
     PortfolioHeadlineComponent,
-    ProjectComponent
+    ProjectComponent,
+    Project1Component,
+    Project2Component
   ],
   imports: [
     BrowserModule,
