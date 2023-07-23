@@ -19,6 +19,11 @@ import { PortfolioHeadlineComponent } from './portfolio-headline/portfolio-headl
 import { ProjectComponent } from './project/project.component';
 import { Project1Component } from './project1/project1.component';
 import { Project2Component } from './project2/project2.component';
+import { ContactComponent } from './contact/contact.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+
 
 @NgModule({
   declarations: [
@@ -34,7 +39,8 @@ import { Project2Component } from './project2/project2.component';
     PortfolioHeadlineComponent,
     ProjectComponent,
     Project1Component,
-    Project2Component
+    Project2Component,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
@@ -43,6 +49,9 @@ import { Project2Component } from './project2/project2.component';
     MatToolbarModule, 
     MatButtonModule, 
     MatIconModule,
+    MatInputModule,
+    MatFormFieldModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

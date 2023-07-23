@@ -1,0 +1,64 @@
+.contact-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-name {
+    background-color: #141D2F ;
+    border-style: solid;
+    border-color: #9747FF;
+    width: 90%;
+    height: 40px;
+    margin-top: 32px;
+    padding-left: 16px;
+    font-size: 16px;
+    color: white;
+}
+
+.input-email {
+    background-color: #141D2F ;
+    border-style: solid;
+    border-color: #9747FF;
+    width: 90%;
+    height: 40px;
+    margin-top: 32px;
+    padding-left: 16px;
+    font-size: 16px;
+    color: white;
+}
+
+.input-text {
+    background-color: #141D2F ;
+    border-style: solid;
+    border-color: #9747FF;
+    width: 90%;
+    height: 162px;
+    margin-top: 32px;
+    padding-left: 16px;
+    padding-top: 16px;
+    font-size: 18px;
+    color: white;
+}
+
+
+.contact-send-button  {
+    background-color: #70E61C;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 158px;
+    height: 49px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 32px;
+}
