@@ -9,13 +9,17 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-top: 112px;
+    margin-bottom: 40px;
+    height: 48px;
 }
 
 .headline {
     color: white;
     font-size: 48px;
     height: 48px;
-    margin-top: 21px;
+    display: flex;
+    align-items: center;
 }
 
 .line-skills {
@@ -33,6 +37,8 @@
     width: 70vw;
     margin-left: 20vw;
     color: white;
+    display: flex;
+    text-align: right;
 
 }
 
@@ -44,6 +50,8 @@
     gap: 48px;
     margin-left: 24px;
 }
+
+
 
 .getInTouch-button {
     background-color: #70E61C;

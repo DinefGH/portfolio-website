@@ -6,6 +6,40 @@
     color: white;
 }
 
+.contact-headline-line {
+    display: flex;
+    margin-top: 112px;
+    align-items: center;
+    margin-bottom: 40px;
+    height: 48px;
+}
+
+.contact-line{
+border-color: #9747FF;
+border-style: solid;
+height: 0px;
+width: 5vw;
+border-width: 5px;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+
+.contact-headline-big {
+    font-size: 3rem;
+
+}
+
+.contact-headline-small {
+    font-size: 1.4rem;
+    margin-bottom: 24px;
+
+}
+
+.contact-text-container {
+    margin-left: 24px;
+    width: 100%;
+}
 
 .form {
     display: flex;
@@ -60,5 +94,5 @@
     height: 49px;
     font-size: 1.2rem;
     cursor: pointer;
-    margin-top: 32px;
+    margin-top: 64px;
 }
