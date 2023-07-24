@@ -23,6 +23,7 @@ import { ContactComponent } from './contact/contact.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { ImprintComponent } from './imprint/imprint.component';
 
 
 @NgModule({
@@ -41,6 +42,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     Project1Component,
     Project2Component,
     ContactComponent,
+    ImprintComponent,
   ],
   imports: [
     BrowserModule,
