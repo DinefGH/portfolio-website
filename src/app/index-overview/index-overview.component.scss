@@ -1,0 +1,76 @@
+.displayNone {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #141D2F;
+    height: 10vh;
+    
+}
+
+.fabianIcon {
+    height: 5vh;
+    width: auto;
+    cursor: pointer;
+    padding-top: 16px;
+    margin-left: 16px;
+}
+
+.hamburgerIcon {
+    height: 32px;
+    width: 32px;
+    margin-top: 19px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+
+.navbar-close {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-color-close {
+    background-color: rgba(0,0,0,0.1)
+}
+
+.fabianIcon {
+    height: 7vh;
+    width: auto;
+    cursor: pointer;
+}
+
+.hamburger-icon-close {
+    margin-right: 16px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+.overlay-headlines-container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-color: #141D2F
+    
+}
+
+.headlines {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    font-size: 4rem;
+    text-decoration: none;
+}
+
+
+.link {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}

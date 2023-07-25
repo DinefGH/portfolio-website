@@ -3,10 +3,12 @@ body {
     margin: 0;
     padding: 0;
 }
-
+.displayNone {
+    display: none;
+}
 
 .overlay-menu {
-    display: none;
+    
     height: 100%;
     width: 100%;
 }

@@ -25,6 +25,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { ImprintComponent } from './imprint/imprint.component';
 import { IndexComponent } from './index/index.component';
+import { IndexOverviewComponent } from './index-overview/index-overview.component';
+import { ImprintSiteComponent } from './imprint-site/imprint-site.component';
 
 
 @NgModule({
@@ -45,6 +47,8 @@ import { IndexComponent } from './index/index.component';
     ContactComponent,
     ImprintComponent,
     IndexComponent,
+    IndexOverviewComponent,
+    ImprintSiteComponent,
   ],
   imports: [
     BrowserModule,
