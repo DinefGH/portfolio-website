@@ -1,0 +1,32 @@
+body {
+    background-color: #141D2F;
+    margin: 0;
+    padding: 0;
+}
+
+
+.overlay-menu {
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+
+.socials {
+width: 100vw;
+z-index: 1;
+}
+
+.social-line {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.my-skills-container {
+    margin-top: 48px;
+}
+

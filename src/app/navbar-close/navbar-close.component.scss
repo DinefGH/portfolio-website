@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     height: 10vh;
+    margin-left: 16px;
+    margin-top: 16px;
 }
 .menu-color-close {
     background-color: rgba(0,0,0,0.1)
@@ -13,6 +15,7 @@
     cursor: pointer;
 }
 
-.hamburgerIcon {
-
+.hamburger-icon-close {
+    margin-right: 16px;
+    margin-top: 5px;
 }
