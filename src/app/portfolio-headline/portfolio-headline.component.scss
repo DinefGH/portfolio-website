@@ -46,3 +46,20 @@
     margin: 24px;
 
 }
+
+
+@media only screen and (min-width: 900px) {
+    .portfolio-line-right {
+        width: 43vw;
+    }
+
+    .portfolio-headline {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .portfolio-headline-descreption {
+        display: flex;
+        justify-content: center;
+    }
+    }

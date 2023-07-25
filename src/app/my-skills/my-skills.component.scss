@@ -70,3 +70,37 @@
     justify-content: center;
     margin-top: 64px;
 }
+
+.getInTouch-button-container-desktop {
+    display: none;
+}
+
+@media only screen and (min-width: 900px) {
+    .skills-container {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .skills-descreption {
+        width: 30vw;
+        margin-left: 0;
+        margin-right: 64px;
+        text-align: center;
+    }
+
+    .skills-icon-container {
+        width: 70vw;
+        margin-left: 64px;
+    }
+
+    .getInTouch-button-container {
+        display: none;
+    }
+
+    .getInTouch-button-container-desktop {
+        width: 30vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 32px;
+    }
+}
