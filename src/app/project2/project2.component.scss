@@ -82,9 +82,31 @@ margin-right: 16px;
     border-radius: 10px;
     border-style: solid;
     border-color: #70E61C;
-    border-width: 2px;
+    border-width: 3px;
     width: 120px;
     height: 58px;
     font-size: 1.5rem;
     cursor: pointer;
+}
+
+
+@media only screen and (min-width: 900px) {
+
+
+    .project-github-btn {
+
+        &:hover {
+            border-color: #95ee56;
+            background-color: #182338;
+        }
+    }
+
+    .project-liveTest-btn {
+
+        &:hover {
+            background-color: #a560ff;
+        }
+    }
+
+    
 }

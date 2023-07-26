@@ -103,4 +103,12 @@
         justify-content: center;
         margin-top: 32px;
     }
+
+
+    .getInTouch-button {
+
+        &:hover {
+            background-color: #95ee56;
+        }
+    }
 }

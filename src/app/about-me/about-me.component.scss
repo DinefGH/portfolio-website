@@ -24,10 +24,6 @@
     margin: 24px;
     margin-top: 112px;
     color: white;
-
-    img {
-        cursor: pointer;
-    }
 }
 
 
@@ -38,4 +34,11 @@
 
 .bulb-text {
     margin-left: 24px;
+}
+
+
+@media only screen and (min-width: 900px) {
+.about-container {
+    margin-right: 64px;
+}
 }

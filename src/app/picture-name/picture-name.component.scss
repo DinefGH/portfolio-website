@@ -97,6 +97,14 @@ width: 352px;
     .text-button-container {
         margin-top: 123px;
     }
+
+
+    .talk-button  {
+
+        &:hover {
+            background-color: #95ee56;
+        }
+    }
     
 }
 
