@@ -13,6 +13,14 @@ export class ContactComponent implements OnInit {
   @ViewChild('messageField') messageField!: ElementRef;
   @ViewChild('sendButton') sendButton!: ElementRef;
   
+  showDialog: boolean = false;
+  userInputName: string = '';
+  userInputEmail: string = '';
+  userInputMessage: string = '';
+  canSend: boolean = true;
+  cannotSend: boolean = false;
+  isButtonDisabled: boolean = false;
+
   emailFormControl = new FormControl('', [
     Validators.required, 
     Validators.email
@@ -21,8 +29,15 @@ export class ContactComponent implements OnInit {
 
   ngOnInit(): void {
   }
-    async sendMail() {
-      console.log('Sending mail', this.myForm);
+    async sendMail(event: SubmitEvent) {
+      event.preventDefault();
+      this.showDialog = true;
+      this.isButtonDisabled = true;
+      this.cannotSend = true;
+      
+      
+
+      // console.log('Sending mail', this.myForm);
       let nameField = this.nameField.nativeElement;
       let emailField = this.emailField.nativeElement;
       let messageField = this.messageField.nativeElement;
@@ -40,7 +55,7 @@ export class ContactComponent implements OnInit {
       fd.append('email', emailField.value);
       fd.append('message', messageField.value);
       // senden
-     await fetch('https://fabian-duerr.developerakademie.net/send_mail_portfolio/send_mail.php',
+     await fetch('https://fabian-duerr.developerakademie.net/send_mail_portfolio/send_mail.ph',
       {
         method: 'POST',
         body: fd
@@ -48,4 +63,11 @@ export class ContactComponent implements OnInit {
       )
 
   }
+
+  closeDialog() {
+    this.showDialog = false;
+    this.canSend = false;
+
+  }
+  
 }

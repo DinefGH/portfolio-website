@@ -60,6 +60,7 @@ import { ImprintSiteComponent } from './imprint-site/imprint-site.component';
     MatInputModule,
     MatFormFieldModule,
     ReactiveFormsModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

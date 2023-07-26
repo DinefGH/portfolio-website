@@ -101,4 +101,53 @@ justify-content: flex-end;
     font-size: 1.2rem;
     cursor: pointer;
     margin-top: 64px;
+
+   
+}
+
+
+.contact-cannotsend-button {
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 158px;
+    height: 49px;
+    font-size: 1.2rem;
+    cursor: initial;
+    margin-top: 64px;
+}
+
+.dialog-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#141D2F;
+    padding: 20px;
+    border: 3px solid #9747FF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 999;
+    height: 30vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.4rem;
+  }
+
+
+  @media only screen and (min-width: 900px) {
+    
+    .contact-send-button  {
+
+    &:hover {
+        background-color: #95ee56;
+    }
+}
+
+
 }
