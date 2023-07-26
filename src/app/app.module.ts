@@ -27,6 +27,7 @@ import { ImprintComponent } from './imprint/imprint.component';
 import { IndexComponent } from './index/index.component';
 import { IndexOverviewComponent } from './index-overview/index-overview.component';
 import { ImprintSiteComponent } from './imprint-site/imprint-site.component';
+import { ScrollTopComponent } from './scroll-top/scroll-top.component';
 
 
 @NgModule({
@@ -49,6 +50,7 @@ import { ImprintSiteComponent } from './imprint-site/imprint-site.component';
     IndexComponent,
     IndexOverviewComponent,
     ImprintSiteComponent,
+    ScrollTopComponent,
   ],
   imports: [
     BrowserModule,

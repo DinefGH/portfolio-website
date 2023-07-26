@@ -73,3 +73,40 @@ color: #70E61C;
     text-decoration: none;
 }
 
+
+@media only screen and (min-width: 900px) { 
+
+    
+    .imprint-name-buttons-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 72px;
+        margin-left: 64px;
+        margin-right: 64px;
+    }
+
+    .imprint-socials {
+        margin-top: -48px;
+    }
+
+    .imprint-name-small {
+        margin-top: 0;
+    }
+
+    .imprint-name-big {
+        margin-top: 0;
+    }
+
+    .social-media-icons {
+        margin-top: 0;
+    }
+
+
+    .imprint-button {
+        margin-top: 0;
+        margin-left: 64px;
+        justify-content: flex-start;
+    }
+}
+

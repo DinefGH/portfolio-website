@@ -90,6 +90,50 @@ justify-content: center;
 @media only screen and (min-width: 900px) {
 
 
+        .project-container {
+            display: flex;
+            flex-direction: row-reverse;
+    
+        }
+    
+        .project-img { 
+            width: auto;
+            margin-right: 64px;
+        }
+        
+        .project-img-all-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            margin-right: 64px;
+            margin-top: 55px;
+            margin-left: 64px;
+        }
+
+
+
+    
+        .project-name {
+            justify-content: flex-end;
+        }
+    
+        .project-skills {
+            justify-content: flex-end;
+        }
+    
+    
+        .project-descreption {
+            justify-content: flex-end;
+            text-align: right;
+            margin-right: 0px;
+        }
+    
+        .project-btn-container {
+            justify-content: flex-end;
+        }
+
+
     .project-github-btn {
 
         &:hover {

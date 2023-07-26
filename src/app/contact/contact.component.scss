@@ -140,8 +140,53 @@ justify-content: flex-end;
   }
 
 
+  .input-name {
+    width: 89%;
+}
+
+
+.input-email {
+    width: 89%;
+}
+
+
+.input-text {
+    width: 89%;
+}
+
+
   @media only screen and (min-width: 900px) {
     
+
+
+    .contact-headline-big {
+        margin-left: 64px;
+    }
+
+    .form {
+        margin-left: 64px;
+        margin-right: 64px;
+    }
+
+    .input-name {
+        width: 100%;
+    }
+
+
+    .input-email {
+        width: 100%;
+    }
+
+
+    .input-text {
+        width: 100%;
+    }
+
+    .contact-text-container {
+        margin-left: 64px;
+    }
+
+
     .contact-send-button  {
 
     &:hover {

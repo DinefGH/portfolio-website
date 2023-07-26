@@ -93,6 +93,47 @@ margin-right: 16px;
 @media only screen and (min-width: 900px) {
 
 
+    .project-container {
+        display: flex;
+
+    }
+
+    
+    .project-img { 
+        width: auto;
+        margin-right: 64px;
+        margin-left: 64px;
+    }
+    
+    .project-img-all-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-right: 64px;
+        margin-top: 55px;
+    }
+
+    .project-name {
+        justify-content: flex-start;
+    }
+
+    .project-skills {
+        justify-content: flex-start;
+    }
+
+
+    .project-descreption {
+        justify-content: flex-start;
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    .project-btn-container {
+        justify-content: flex-start;
+    }
+
+
     .project-github-btn {
 
         &:hover {
