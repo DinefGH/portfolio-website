@@ -80,6 +80,7 @@
     .skills-container {
         display: flex;
         flex-direction: row-reverse;
+        margin-top: 120px;
     }
 
     .skills-descreption {
@@ -90,8 +91,10 @@
     }
 
     .skills-icon-container {
+        margin-top: 100px;
         width: 70vw;
         margin-left: 64px;
+        gap: 90px;
     }
 
     .getInTouch-button-container {
