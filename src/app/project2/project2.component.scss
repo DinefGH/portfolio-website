@@ -90,6 +90,30 @@ margin-right: 16px;
 }
 
 
+.shadow-greenContact-container {
+    width: 100%;
+    z-index: -8;
+    overflow: hidden;
+    height: 450px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -88px;
+}
+
+.shadow-greenContact {
+    overflow: hidden;
+    margin-right: -260px;
+    margin-top: -15px;
+}
+
+.shadow-greenContact-img {
+    overflow: hidden;
+    height: 450px;
+    width: auto;
+}
+
+
 @media only screen and (min-width: 900px) {
 
 
@@ -147,6 +171,30 @@ margin-right: 16px;
         &:hover {
             background-color: #a560ff;
         }
+    }
+
+
+    .shadow-greenContact-container {
+        width: 100%;
+        z-index: -8;
+        overflow: hidden;
+        height: 1000px;
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -288px;
+    }
+    
+    .shadow-greenContact {
+        overflow: hidden;
+        margin-right: -413px;
+        margin-top: -25px;
+    }
+    
+    .shadow-greenContact-img {
+        overflow: hidden;
+        height: 1000px;
+        width: auto;
     }
 
     
