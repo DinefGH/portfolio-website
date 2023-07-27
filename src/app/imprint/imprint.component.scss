@@ -108,5 +108,20 @@ color: #70E61C;
         margin-left: 64px;
         justify-content: flex-start;
     }
+
+    .imprint-button {
+
+        &:hover {
+            color: #9747FF;
+        }
+        
+    }
+
+    .hoover-portfolio {
+
+        &:hover {
+            color: #70E61C;
+        }
+    }
 }
 

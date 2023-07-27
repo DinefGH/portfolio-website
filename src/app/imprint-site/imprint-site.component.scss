@@ -168,6 +168,21 @@
 }
 }
 
+.hoover-portfolio {
+
+    &:hover {
+        color: #9747FF;
+    }
+}
+
+.imprint-button {
+
+    &:hover {
+        color: #9747FF;
+    }
+    
+}
+
 @media only screen and (min-width: 1200px) { 
 
     .headlines-navbar {
