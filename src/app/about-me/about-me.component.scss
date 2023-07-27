@@ -19,11 +19,35 @@
     margin-top: 24px;
 }
 
+.shadow-purple-container {
+    width: 98vw;
+    z-index: 1;
+    overflow: hidden;
+    height: 800px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -115px;
+}
+
+.shadow-purple {
+    overflow: hidden;
+    margin-right: -413px;
+    margin-top: -28px;
+}
+
+.shadow-purple-img {
+    overflow: hidden;
+    height: 800px;
+    width: auto;
+}
 
 .about-container {
     margin: 24px;
     margin-top: 112px;
     color: white;
+    overflow: hidden;
+    z-index: 999;
 }
 
 
@@ -39,6 +63,7 @@
 
 @media only screen and (min-width: 900px) {
 .about-container {
-    margin-right: 64px;
+    margin-right: 30vw;
+    margin-left: 64px;
 }
 }

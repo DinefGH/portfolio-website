@@ -1,3 +1,68 @@
-<span><a routerLink=""><img class="fabianIcon" src="/assets/img/Fabian_Logo.svg" alt="Icon"></a></span>
+
+
+
+<nav [class.displayNone]="isMyClassNoneVisible">
+    <div class="navbar">
+        <span><a routerLink=""><img class="fabianIcon" src="/assets/img/Fabian_Logo.svg" alt="Icon"></a></span>
+        
+
+
+        <div class="headlines-navbar displayNone"> 
+            <a class="link hoover-about" href="#aboutMe">
+                About me
+            </a>
+        
+            <a class="link hoover-skills" href="#mySkills">
+                My skills
+            </a>
+        
+            <a class="link hoover-portfolio" href="#portfolioScroll">
+                Portfolio
+            </a>
+        
+            <a class="link hoover-contact" href="#contact">
+                Contact
+            </a>
+
+        </div>
+        <img (click)="openOverlay()" class="hamburgerIcon" src="assets/img/hamburger-icon.svg" alt="hamburger icon">
+    </div>
+</nav>
+
+
+<nav [class.displayNone]="isMyClassVisible">
+    <div class="navbar-close">
+        <span><a routerLink=""><img class="fabianIcon" src="/assets/img/Fabian_Logo.svg" alt="Icon"></a></span>
+      
+
+        <img (click)="closeOverlay()" class="hamburger-icon-close" src="assets/img/close-hamburger-icon.svg"
+            alt="hamburger icon">
+    </div>
+</nav>
+
+<div [class.displayNone]="isMyClassVisible">
+    <div class="overlay-headlines-container">
+        <div class="headlines">
+
+    <a class="link" href="#aboutMe">
+        <span class="link" (click)="closeOverlay()">About me</span>
+    </a>
+
+    <a class="link" href="#mySkills">
+        <span class="link" (click)="closeOverlay()">My skills</span>
+    </a>
+
+    <a class="link" href="#portfolioScroll">
+        <span class="link" (click)="closeOverlay()">Portfolio</span>
+    </a>
+
+    <a class="link" href="#contact">
+        <span class="link" (click)="closeOverlay()">Contact</span>
+    </a>
+        </div>
+    </div>
+
+
+</div>
 // ANCHOR - add navbar
 // TODO - An item that is awaiting completion

@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class ImprintSiteComponent {
 
+  isMyClassVisible = true;
+  isMyClassNoneVisible = false;
+
+  openOverlay() {
+    this.isMyClassVisible = false;
+    this.isMyClassNoneVisible = true;
+  }
+
+  closeOverlay() {
+    this.isMyClassVisible = true;
+    this.isMyClassNoneVisible = false;
+  }
 }
