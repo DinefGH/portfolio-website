@@ -55,7 +55,7 @@ export class ContactComponent implements OnInit {
       fd.append('email', emailField.value);
       fd.append('message', messageField.value);
       // senden
-     await fetch('https://fabian-duerr.developerakademie.net/send_mail_portfolio/send_mail.ph',
+     await fetch('https://fabian-duerr.developerakademie.net/send_mail_portfolio/send_mail.php',
       {
         method: 'POST',
         body: fd
