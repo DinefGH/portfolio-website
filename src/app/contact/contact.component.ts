@@ -14,6 +14,7 @@ export class ContactComponent implements OnInit {
   @ViewChild('sendButton') sendButton!: ElementRef;
   
   showDialog: boolean = false;
+  showDialogNotSent: boolean = false;
   userInputName: string = '';
   userInputEmail: string = '';
   userInputMessage: string = '';
@@ -31,9 +32,7 @@ export class ContactComponent implements OnInit {
   }
     async sendMail(event: SubmitEvent) {
       event.preventDefault();
-      this.showDialog = true;
-      this.isButtonDisabled = true;
-      this.cannotSend = true;
+
       
       
 
@@ -55,14 +54,29 @@ export class ContactComponent implements OnInit {
       fd.append('email', emailField.value);
       fd.append('message', messageField.value);
       // senden
-     await fetch('https://fabian-duerr.developerakademie.net/send_mail_portfolio/send_mail.php',
+      const response = await fetch('https://fabian-duerr.developerakademie.net/send_mail_portfolio/send_mail.php',
       {
         method: 'POST',
         body: fd
       }
       )
 
-  }
+
+      if (response.ok) {
+        this.showDialog = true;
+        this.isButtonDisabled = true;
+        this.cannotSend = true;
+      }
+      else {
+        this.showDialogNotSent = true;
+      }
+    }
+
+
+    closeDialogNotSent() {
+      this.showDialogNotSent = false;
+  
+    }
 
   closeDialog() {
     this.showDialog = false;

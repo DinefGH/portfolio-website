@@ -47,6 +47,7 @@ width: 300px;
     align-items: center;
     justify-content: center;
     margin-top: -70px;
+    margin-bottom: 70px;
 }
 
 .name {
@@ -79,6 +80,7 @@ width: 300px;
     margin-top: 48px;
     background-color: #70E61C;
     border-radius: 10px;
+    border: none;
     height: 49px;
     width: 135px;
     color: white;
@@ -110,7 +112,9 @@ width: 300px;
     .talk-button  {
 
         &:hover {
-            background-color: #95ee56;
+            background-color: #9747FF;
+
+
         }
     }
     

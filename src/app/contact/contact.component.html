@@ -35,6 +35,12 @@ Need a Frontend developer? Contact me!
   <button class="contact-send-button" (click)="closeDialog()">Close</button>
 </div>
 
+
+<div *ngIf="showDialogNotSent" class="dialog-box">
+  <p>Message was not sent!</p>
+  <button class="contact-send-button" (click)="closeDialogNotSent()">Close</button>
+</div>
+
 <div class="shadow-purpleContact-container">
   <div class="shadow-purpleContact">
       <img class="shadow-purpleContact-img" src="assets/img/Purple shadow footer.png" alt="">

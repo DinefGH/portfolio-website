@@ -42,7 +42,7 @@
 }
 
 .fabianIcon {
-    height: 7vh;
+    height: 5vh;
     width: auto;
     cursor: pointer;
 }
@@ -53,21 +53,6 @@
     cursor: pointer;
 }
 
-
-#fill {
-
-    &:hover {
-        fill: #70E61C;
-    }
-}
-
-
-#stroke {
-
-    &:hover {
-        stroke: #9747FF;
-    }
-}
 
 
 
@@ -100,7 +85,7 @@
 }
 
 .scroll-top {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     right: 0;
     margin-right: 32px;
@@ -115,7 +100,7 @@
     }
 
 .scroll-top {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     right: 0;
     margin-right: 64px;

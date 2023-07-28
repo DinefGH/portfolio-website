@@ -134,19 +134,18 @@ justify-content: center;
         }
 
 
-    .project-github-btn {
+        .project-github-btn {
 
-        &:hover {
-            border-color: #95ee56;
-            background-color: #182338;
+            &:hover {
+                background-color: #70E61C;
+            }
         }
-    }
-
-
-    .project-liveTest-btn {
-
-        &:hover {
-            background-color: #a560ff;
+    
+    
+        .project-liveTest-btn {
+    
+            &:hover {
+                background-color: #70E61C;
+            }
         }
-    }
 }

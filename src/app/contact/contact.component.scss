@@ -6,6 +6,7 @@
     color: white;
 }
 
+
 .contact-headline-line {
     display: flex;
     margin-top: 112px;
@@ -14,21 +15,24 @@
     height: 48px;
 }
 
-.contact-line{
-border-color: #9747FF;
-border-style: solid;
-height: 0px;
-width: 5vw;
-border-width: 5px;
-display: flex;
-align-items: center;
-justify-content: flex-end;
+
+.contact-line {
+    border-color: #9747FF;
+    border-style: solid;
+    height: 0px;
+    width: 5vw;
+    border-width: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
+
 
 .contact-headline-big {
     font-size: 3rem;
 
 }
+
 
 .contact-headline-small {
     font-size: 1.4rem;
@@ -36,10 +40,12 @@ justify-content: flex-end;
 
 }
 
+
 .contact-text-container {
     margin-right: 16px;
     margin-left: 16px;
 }
+
 
 .form {
     display: flex;
@@ -47,8 +53,9 @@ justify-content: flex-end;
     align-items: center;
 }
 
+
 .input-name {
-    background-color: #141D2F ;
+    background-color: #141D2F;
     border-style: solid;
     border-color: #9747FF;
     border-radius: 10px;
@@ -60,9 +67,10 @@ justify-content: flex-end;
     font-size: 16px;
     color: white;
 }
+
 
 .input-email {
-    background-color: #141D2F ;
+    background-color: #141D2F;
     border-style: solid;
     border-color: #9747FF;
     border-radius: 10px;
@@ -75,8 +83,9 @@ justify-content: flex-end;
     color: white;
 }
 
+
 .input-text {
-    background-color: #141D2F ;
+    background-color: #141D2F;
     border-style: solid;
     border-color: #9747FF;
     border-radius: 10px;
@@ -91,7 +100,7 @@ justify-content: flex-end;
 }
 
 
-.contact-send-button  {
+.contact-send-button {
     background-color: #70E61C;
     color: white;
     border-radius: 10px;
@@ -102,7 +111,7 @@ justify-content: flex-end;
     cursor: pointer;
     margin-top: 64px;
 
-   
+
 }
 
 
@@ -123,11 +132,11 @@ justify-content: flex-end;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color:#141D2F;
+    background-color: #141D2F;
     padding: 20px;
     border: 3px solid #9747FF;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     z-index: 999;
     height: 30vh;
     width: 30vw;
@@ -137,10 +146,10 @@ justify-content: flex-end;
     align-items: center;
     color: white;
     font-size: 1.4rem;
-  }
+}
 
 
-  .input-name {
+.input-name {
     width: 89%;
 }
 
@@ -166,11 +175,13 @@ justify-content: flex-end;
     margin-top: -88px;
 }
 
+
 .shadow-purpleContact {
     overflow: hidden;
     margin-left: -113px;
     margin-top: -15px;
 }
+
 
 .shadow-purpleContact-img {
     overflow: hidden;
@@ -190,11 +201,13 @@ justify-content: flex-end;
     margin-top: -88px;
 }
 
+
 .shadow-greenContact {
     overflow: hidden;
     margin-left: -113px;
     margin-top: -15px;
 }
+
 
 .shadow-greenContact-img {
     overflow: hidden;
@@ -202,8 +215,9 @@ justify-content: flex-end;
     width: auto;
 }
 
-  @media only screen and (min-width: 900px) {
-    
+
+@media only screen and (min-width: 900px) {
+
 
     .contact-headline-line {
         margin-top: 220px;
@@ -234,39 +248,40 @@ justify-content: flex-end;
 
     .contact-text-container {
         margin-left: 64px;
+        margin-right: 64px;
     }
 
 
-    .contact-send-button  {
+    .contact-send-button {
 
-    &:hover {
-        background-color: #95ee56;
+        &:hover {
+            background-color: #9747FF;
+        }
     }
-}
-
-.shadow-purpleContact-container {
-    width: 100%;
-    z-index: -8;
-    overflow: hidden;
-    height: 200px;
-    position: absolute;
-    display: flex;
-    justify-content: flex-start;
-    margin-top: -88px;
-}
-
-.shadow-purpleContact {
-    overflow: hidden;
-    margin-left: -113px;
-    margin-top: -15px;
-}
-
-.shadow-purpleContact-img {
-    overflow: hidden;
-    height: 450px;
-    width: auto;
-}
 
 
+    .shadow-purpleContact-container {
+        width: 100%;
+        z-index: -8;
+        overflow: hidden;
+        height: 200px;
+        position: absolute;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: -88px;
+    }
 
+
+    .shadow-purpleContact {
+        overflow: hidden;
+        margin-left: -113px;
+        margin-top: -15px;
+    }
+
+
+    .shadow-purpleContact-img {
+        overflow: hidden;
+        height: 450px;
+        width: auto;
+    }
 }
