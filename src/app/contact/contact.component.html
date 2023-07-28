@@ -17,10 +17,10 @@ Need a Frontend developer? Contact me!
 
 
 
-<form class="form" (submit)="sendMail($event)" ngNativeValidate #myform>
-    <input  class="input-name" required type="text" name="name" placeholder="Your name" #nameField>
-    <input  class="input-email" required type="email" name="email" placeholder="Your email" #emailField>
-    <textarea  class="input-text" required type="text" name="message" placeholder="Your message" #messageField></textarea>
+<form class="form"  (submit)="sendMail($event)" ngNativeValidate #myform>
+    <input [(ngModel)]="inputValueName"  class="input-name" required type="text" name="name" placeholder="Your name" #nameField>
+    <input [(ngModel)]="inputValueEmail" class="input-email" required type="email" name="email" placeholder="Your email" #emailField>
+    <textarea [(ngModel)]="inputValueText" class="input-text" required type="text" name="message" placeholder="Your message" #messageField></textarea>
     <button [disabled]="isButtonDisabled" [ngClass]="{'contact-send-button': canSend, 'contact-cannotsend-button': cannotSend}" #sendButton>
 
 

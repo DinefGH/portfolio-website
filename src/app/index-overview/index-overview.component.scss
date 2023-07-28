@@ -12,7 +12,8 @@
     justify-content: space-between;
     background-color: #141D2F;
     align-items: center;
-    height: 70px;
+    height: 7vh;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
     
 }
 
@@ -25,9 +26,9 @@
 }
 
 .hamburgerIcon {
-    height: 32px;
+    height: 4vh;
     width: 32px;
-    margin-top: 19px;
+    margin-top: 9px;
     margin-right: 16px;
     cursor: pointer;
 }
@@ -36,6 +37,7 @@
 .navbar-close {
     display: flex;
     justify-content: space-between;
+    height: 7vh;
 }
 .menu-color-close {
     background-color: rgba(0,0,0,0.1)
@@ -51,6 +53,7 @@
     margin-right: 16px;
     padding-top: 5px;
     cursor: pointer;
+    height: 4vh;
 }
 
 

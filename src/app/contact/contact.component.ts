@@ -21,6 +21,9 @@ export class ContactComponent implements OnInit {
   canSend: boolean = true;
   cannotSend: boolean = false;
   isButtonDisabled: boolean = false;
+  inputValueName: string = '';
+  inputValueEmail: string = '';
+  inputValueText: string = '';
 
   emailFormControl = new FormControl('', [
     Validators.required, 
@@ -81,6 +84,10 @@ export class ContactComponent implements OnInit {
   closeDialog() {
     this.showDialog = false;
     this.canSend = false;
+    this.inputValueName = '';
+    this.inputValueEmail = '';
+    this.inputValueText = '';
+
 
   }
   
