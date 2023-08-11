@@ -118,6 +118,26 @@
         width: 100%;
     }
 
+    .headlines-navbar {
+        .link {
+          &.hoover-about, &.hoover-portfolio {
+            color: white;  
+          }
+          &.hoover-skills, &.hoover-contact {
+            color: white;  
+          }
+      
+          &.active {
+            &.hoover-about, &.hoover-portfolio {
+                color: #9747FF;  
+            }
+            &.hoover-skills, &.hoover-contact {
+                color: #70E61C;
+            }
+          }
+        }
+    }
+
 .scroll-top {
     position: fixed;
     bottom: 0;
