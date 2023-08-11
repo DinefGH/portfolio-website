@@ -50,6 +50,14 @@
     gap: 48px;
     margin-left: 16px;
     margin-right: 16px;
+
+    div[class*='-container'] {
+        transition: all 0.5s ease-in-out 0s;
+        &:hover {
+            transform: scale(1.15);
+            
+        }
+    }
 }
 
 
