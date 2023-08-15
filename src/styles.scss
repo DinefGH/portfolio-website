@@ -1,13 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 html, body { height: 100%; }
-body { margin: 0; font-family: 'open-dyslexic', "Helvetica Neue", sans-serif !important; 
+body { margin: 0; font-family: 'Lora', "Helvetica Neue", sans-serif !important; 
     background-color: #141D2F;
     font-size: 1rem !important;
 }
 html {scroll-behavior: smooth;}
 @font-face {
-    font-family: 'open-dyslexic';
-    src: url('assets/fonts/open-dyslexic.ttf');
+    font-family: 'Lora';
+    src: url('assets/fonts/Lora-Regular.ttf');
   }
 
   body::-webkit-scrollbar {

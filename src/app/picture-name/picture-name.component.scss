@@ -13,7 +13,7 @@
 
 }
 .picture-body {
-    height: 70vh !important;
+    height: 55vh ;
     width: auto !important;
     z-index: 2;
 }
@@ -37,7 +37,7 @@
     display: flex;
     position: relative;
     top: 80vh;
-    width: 100vw;
+    width: 92vw;
     height: 100vh;
 }
 
@@ -102,6 +102,42 @@ height: 100vh;
     z-index: 20;
 }
 
+.name {
+    display: inline-block;
+    overflow: hidden; /* hide the overflowing text */
+    white-space: nowrap; /* prevent the text from wrapping */
+    width: 0; /* start with no visible text */
+    animation: typing 4s steps(40, end) forwards; /* animate the text over 4 seconds */
+    
+}
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%; /* show the full text */
+    }
+  }
+
+
+@media only screen and (min-width: 1450px) {
+    .text-button-container {
+        top: -20px;
+        left:-280px!important;
+    }
+}
+
+.name {
+    font-size: 5rem;
+}
+
+.frontend {
+    margin-top: 20px;
+    font-size: 2.6rem;
+}
+
+
 @media only screen and (min-height: 1150px) {
 
     .picture-name-container {
@@ -122,12 +158,50 @@ height: 100vh;
     }
 }
 
+@media only screen and (min-width: 1600px) {
+    .picture-purpleGreen-shadow {
+        top: 1900px;
+        width: 50vw !important;
+        height: 200vh;
+    }
+}
+
+
 @media only screen and (max-width: 1600px) {
     .picture-purpleGreen-shadow {
         top: 1900px;
-        width: 70vw !important;
+        width: 50vw !important;
         height: 200vh;
     }
+}
+
+@media only screen and (max-width: 900px) {
+.name {
+    font-size: 2.5rem;
+    height: 24px;
+    padding-top: 14px;
+    padding-right: 10px;
+}
+
+.frontend {
+    font-size: 1.3rem;
+
+}
+}
+
+
+@media only screen and (min-width: 900px) {
+    .text-button-container {
+position: relative;
+top: -120px;
+
+
+.name {
+    padding-top: 35px;
+    padding-right: 22px;
+    height: 50px;
+}
+}
 }
 
 @media only screen and (max-width: 1200px) {
@@ -207,4 +281,11 @@ height: 100vh;
 }
 
 
+@media only screen and (max-width: 450px) {
+.picture-body {
+    height: 53vh !important;
+    width: auto !important;
+    z-index: 2;
+}
+}
 
