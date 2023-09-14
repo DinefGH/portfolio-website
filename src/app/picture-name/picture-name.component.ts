@@ -18,6 +18,6 @@ export class PictureNameComponent implements OnInit {
     // Delay for half a second before starting the typing effect.
     setTimeout(() => {
       this.textToDisplay = this.fullText;
-    }, 500);
+    }, 100);
   }
-}
+} 

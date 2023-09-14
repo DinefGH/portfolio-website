@@ -16,6 +16,10 @@
 }
 
 
+input.filled, textarea.filled {
+    border-color: #70E61C;
+}
+
 .contact-line {
     border-color: #9747FF;
     border-style: solid;
@@ -86,6 +90,10 @@
     font-family: "open-dyslexic";
 }
 
+.privacy-policy-link {
+    text-decoration: none;
+    color: #70E61C;
+}
 
 .input-text {
     background-color: #141D2F;
@@ -120,6 +128,78 @@
 
 }
 
+
+.checkbox-container {
+    margin-top: 16px;
+}
+
+  
+  /* Styling for the custom checkbox */
+  input[type="checkbox"] {
+    display: none; // Hide the native checkbox
+  
+    // Styling for checked state
+    &:checked + label::before {
+      background-color: #70E61C; // Change this color to your preferred background color
+    }
+  }
+  
+  .privacy-policy-link {
+    color: #9747FF;
+    text-decoration: none;
+  
+    &:hover {
+        color: #70E61C;
+    }
+  }
+  
+  .custom-checkbox {
+    margin-top: 16px;
+    position: relative;
+    padding-left: 28px;  // Space for the custom checkbox
+    cursor: pointer;
+    user-select: none;
+    
+    input[type="checkbox"] {
+      display: none;  // Hide the native checkbox
+    }
+  
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 16px;
+      height: 16px;
+      border-radius: 4px;
+      background-color: #141d2f;
+      border: 1px solid #9747FF;
+      transition: background-color 0.3s;
+      
+      // Add a "hook" or tick for the checkbox
+      &:after {
+        content: "";
+        position: absolute;
+        display: none;
+        left: 5px;
+        top: 1px;
+        width: 4px;
+        height: 8px;
+        border: solid #9747FF;
+        border-width: 0 3px 3px 0;
+        transform: rotate(45deg);
+      }
+    }
+  
+    // When checkbox is checked
+    input[type="checkbox"]:checked + .checkmark {
+      background-color: #70E61C;
+  
+      // Display the "hook" or tick
+      &:after {
+        display: block;
+      }
+    }
+  }
 
 .contact-cannotsend-button {
     background-color: gray;

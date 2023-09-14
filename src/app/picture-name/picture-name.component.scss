@@ -107,7 +107,7 @@ height: 100vh;
     overflow: hidden; /* hide the overflowing text */
     white-space: nowrap; /* prevent the text from wrapping */
     width: 0; /* start with no visible text */
-    animation: typing 4s steps(40, end) forwards; /* animate the text over 4 seconds */
+    animation: typing 3s steps(50, end) forwards; /* animate the text over 4 seconds */
     
 }
   
@@ -181,6 +181,7 @@ height: 100vh;
     height: 24px;
     padding-top: 14px;
     padding-right: 10px;
+    padding-bottom: 8px;
 }
 
 .frontend {
@@ -195,13 +196,14 @@ height: 100vh;
 position: relative;
 top: -120px;
 
+}
 
 .name {
     padding-top: 35px;
     padding-right: 22px;
     height: 50px;
-}
-}
+    }
+
 }
 
 @media only screen and (max-width: 1200px) {

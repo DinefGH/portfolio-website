@@ -14,6 +14,11 @@ export class ContactComponent implements OnInit {
   @ViewChild('messageField') messageField!: ElementRef;
   @ViewChild('sendButton') sendButton!: ElementRef;
   
+
+  isNameFilled = false;
+  isEmailFilled = false;
+  isMessageFilled = false;
+
   showDialog: boolean = false;
   showDialogNotSent: boolean = false;
   userInputName: string = '';
@@ -25,6 +30,9 @@ export class ContactComponent implements OnInit {
   inputValueName: string = '';
   inputValueEmail: string = '';
   inputValueText: string = '';
+  hasAcceptedPrivacyPolicy: boolean = false;
+  
+  
 
   emailFormControl = new FormControl('', [
     Validators.required, 
@@ -56,33 +64,32 @@ export class ContactComponent implements OnInit {
       anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
     
     });
-
   }
     async sendMail(event: SubmitEvent) {
+      
+      if (this.hasAcceptedPrivacyPolicy == true) {
       event.preventDefault();
+      console.log('hallo');
 
       
-      
-
       // console.log('Sending mail', this.myForm);
       let nameField = this.nameField.nativeElement;
       let emailField = this.emailField.nativeElement;
       let messageField = this.messageField.nativeElement;
       let sendButton = this.sendButton.nativeElement;
 
+
       nameField.disabled = true;
       emailField.disabled = true;
       messageField.disabled = true;
       sendButton.disabled = true;
-
-
 
       let fd = new FormData();
       fd.append('name', nameField.value);
       fd.append('email', emailField.value);
       fd.append('message', messageField.value);
       // senden
-      const response = await fetch('https://fabian-duerr.developerakademie.net/send_mail_portfolio/send_mail.php',
+      const response = await fetch('https://fabianduerr.com/send_mail_portfolio/send_mail.php',
       {
         method: 'POST',
         body: fd
@@ -99,12 +106,20 @@ export class ContactComponent implements OnInit {
         this.showDialogNotSent = true;
       }
     }
+  }
 
+
+    checkFields() {
+      this.isNameFilled = !!this.inputValueName;
+      this.isEmailFilled = !!this.inputValueEmail;
+      this.isMessageFilled = !!this.inputValueText;
+      
+    }
 
     closeDialogNotSent() {
       this.showDialogNotSent = false;
-  
     }
+
 
   closeDialog() {
     this.showDialog = false;
@@ -112,8 +127,5 @@ export class ContactComponent implements OnInit {
     this.inputValueName = '';
     this.inputValueEmail = '';
     this.inputValueText = '';
-
-
   }
-  
 }
