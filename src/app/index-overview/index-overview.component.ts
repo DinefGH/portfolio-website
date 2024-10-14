@@ -1,5 +1,5 @@
 import { Component, Renderer2, ElementRef, AfterViewInit } from '@angular/core';
-
+import { TranslateService } from '@ngx-translate/core';
 
 
 
@@ -19,7 +19,9 @@ export class IndexOverviewComponent implements AfterViewInit {
   currentSection: string = 'section1';
   sections: any[] = [];
 
-  constructor(private renderer: Renderer2, private el: ElementRef) {}
+  constructor(private renderer: Renderer2, private el: ElementRef,private translate: TranslateService) {
+    translate.setDefaultLang('en');
+  }
 
   ngAfterViewInit() {
     this.sections = this.el.nativeElement.querySelectorAll('.section');
@@ -57,6 +59,11 @@ export class IndexOverviewComponent implements AfterViewInit {
   closeOverlay() {
     this.isMyClassVisible = true;
     this.isMyClassNoneVisible = false;
+  }
+
+
+  switchLanguage(language: string) {
+    this.translate.use(language);
   }
 }
 
