@@ -1,14 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 html, body { height: 100%; }
-body { margin: 0; font-family: 'Lora', "Helvetica Neue", sans-serif !important; 
+body { margin: 0; font-family: 'Cambay', "Helvetica Neue", sans-serif !important; 
     background-color: #141D2F;
-    font-size: 1rem !important;
+    font-size: 1.5rem !important;
 }
 html {scroll-behavior: smooth;}
 @font-face {
-    font-family: 'Lora';
-    src: url('assets/fonts/Lora-Regular.ttf');
+    font-family: 'Cambay';
+    src: url('assets/fonts/Cambay-Regular.ttf');
   }
+
 
   body::-webkit-scrollbar {
     width: 0.7em;
